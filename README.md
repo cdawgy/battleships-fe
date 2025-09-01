@@ -68,3 +68,4 @@ export default tseslint.config([
 ])
 ```
 # battleships-fe
+# battleships-fe
