@@ -1,8 +1,10 @@
 export type Player = {
-    name: string
-}
+  name: string;
+  board: unknown[];
+};
 
 export type Game = {
-    players: Player[]
-    state: "lobby" | "start" | "joining"
-}
+  players: Player[];
+  status: "lobby" | "start" | "joining";
+  turn: "";
+};
